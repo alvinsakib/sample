@@ -1,0 +1,447 @@
+/* ==========================================================================
+    Template Name: Portfolio Landing Page Template
+    Template URI: http://w3codevs.com/templates/portfolio-preview/
+    Description: Portfolio Landing HTML5 Template
+    Author: w3codevs
+    Author URI: http://www.w3codevs.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header css
+3. Home css
+4. Features css
+5. Developer css
+6. History css
+7. Process css
+8. Action css
+9. Software css
+10. Price css
+11. Testimonial css
+12. News css
+13. Blog page css 
+14. Blog-Side-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+   Google Font
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+   /*...................................
+      1. Template default css
+      ................................... */
+   
+   html {
+     overflow-x: hidden;
+   
+   }
+      
+   body {
+     font-family: 'Poppins', sans-serif;
+     overflow-x: hidden;
+     font-weight: 400;
+     background-color: #0E1525;
+   }
+   /* font-family: 'Montserrat', sans-serif; */
+   
+   a,
+   .button {
+     -webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -ms-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+   }
+   
+   a:focus,
+   .btn:focus {
+     text-decoration: none;
+     outline: none;
+     box-shadow: none;
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+   }
+   
+   p {
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+     line-height: 30px;
+     color: #969BAA;
+   }
+   
+   ul {
+     list-style: outside none none;
+     margin: 0px;
+     padding: 0px;
+   }
+   
+   li {
+     list-style: none;
+     display: inline-block;
+     cursor: pointer;
+   }
+   
+   a {
+     color: inherit;
+   }
+   
+   a:hover {
+     text-decoration: none;
+     color: inherit;
+   }
+   
+   .form-control:focus {
+     outline: 0;
+     box-shadow:none;
+   }
+   
+   /* ==========================================================================
+      Author's custom styles
+      ========================================================================== */
+   
+   /*...................................
+      2. Header css
+      ................................... */
+.header{
+  background: #000;
+  color: #fff;
+}
+.header-left img {
+  width: 60px;
+  height: 60px;
+}
+.header-left .navbar-nav .active a {
+  color: #fd4766 !important;
+  border-bottom: 2px solid #fd4766;
+}
+.btn{
+  font-size: 16px;
+  color: #989CAC !important;
+  border: 1px solid #989CAC;
+  border-radius: 50px;
+  transition: .5s;
+  padding: 11px 22px;
+  text-transform: uppercase;
+}
+.btn:hover{
+  background: #fd4766;
+  color: #fff !important;
+}
+.header-right .social-icon {
+  display: inline-block;
+  padding: 35px;
+}
+.header-right i {
+  font-size: 16px;
+} 
+    
+ul.social-icon a {
+    padding-right: 33px;
+}
+ul.social-icon a {
+    color: #fff;
+}
+.nav-link{
+  color: #fff!important;
+}
+
+/*...................................
+3. HOME css
+................................... */
+.home{
+  background: url("../images/head-bg.jpg") no-repeat center/cover;
+  height: 100vh;
+  width: auto;
+
+}
+.home-content{
+  padding: 100px 0;
+}
+.home-content span {
+  font-size: 15px;
+  color: rgba(198, 201, 216, 0.75);
+  /* font-weight: 400; */
+  letter-spacing: 2px;
+}
+
+.home-content h3,h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 75px;
+  /* color: #fff; */
+}
+
+.home-content h3 {
+  color: #fff;
+}
+
+.home-content h5 {
+  color: #fd4766;
+}
+.home-content p{
+  color: #fff !important;
+}
+/*...................................
+4. about-me css
+................................... */
+.about-me{
+  padding: 50px 0;
+}
+.multicolortext {
+  background-image: linear-gradient(to right, #0B69E6, #8B19FC, #0B19E6, #EB46D8, #E60B34);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.title span{
+  font-size: 16px;
+  font-weight: 600;
+}
+.title h3{
+  font-size: 50px;
+  color: #fff;
+  padding: 10px 0;
+}
+.title p{
+  font-size: 18px;
+  color: rgba(198, 201, 216, 0.75);
+  font-weight: 300;
+  padding-bottom: 14px;
+}
+ul.skills {
+  border: 1px solid rgba(255, 255, 255, 0.219);
+  border-radius: 40px;
+  padding: 15px 20px;
+  color: #fff;
+  width: 500px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+ul.skills li {
+  padding: 0 16px;
+  text-transform: capitalize;
+}
+.about-right {
+  margin-left: 50px;
+}
+.about-left img {
+  border-radius: 15px;
+}
+/*...................................
+5. services css
+................................... */
+.services .title{
+  text-align: center;
+}
+.service-content h4{
+  color: #fff;
+  padding-top: 20px;
+}
+.service-content {
+  padding: 50px;
+  margin-bottom: 30px;
+  background: #091020;
+  border-radius: 10px;
+}
+.services .title {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.services {
+  margin: 70px 0;
+}
+/*...................................
+6. Project css
+................................... */
+.project{
+  text-align: center;
+}
+.project-single{
+  padding: 310px 20px 20px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 16px;
+}
+.project-img{
+  background: url("../images/project-1.jpg") no-repeat center/cover;
+}
+.project-img-2{
+  background: url("../images/project-2.jpg") no-repeat center/cover;
+}
+.project-img-3{
+  background: url("../images/project-3.jpg") no-repeat center/cover;
+}
+.project-img-4{
+  background: url("../images/project-4.jpg") no-repeat center/cover;
+}
+.project-img-5{
+  background: url("../images/project-5.jpg") no-repeat center/cover;
+}
+.project-img-6{
+  background: url("../images/project-6.jpg") no-repeat center/cover;
+}
+.project-single span{
+  font-size: 18px;
+  color: rgba(198, 201, 216, 0.75);
+}
+.project-single h4{
+  color: #fff;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.project-single p{
+  color: rgba(198, 201, 216, 0.75);
+  font-size: 18px;
+}
+.project .btn {
+  background: #fd4766;
+  color: #ddd !important;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  font-size: 18px;
+  border: 2px solid #fd4766;
+  transition: .4s;
+  margin-top: 20px;
+}
+.project .btn:hover {
+  background: #0E1525;
+  color: #fd4766 !important;
+}
+/*...................................
+7. news css
+................................... */
+.news{
+  margin: 30px 0;
+  padding: 50px 0;
+}
+.news .title{
+  text-align: center;
+}
+.news-content{
+  padding: 300px 20px 20px 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.news-img{
+  background: url("../images/news-1.jpg") no-repeat center/cover;
+}
+.news-img-2{
+  background: url("../images/news-2.jpg") no-repeat center/cover;
+}
+.news-img-3{
+  background: url("../images/news-3.jpg") no-repeat center/cover;
+}
+.news-content span {color: rgba(198, 201, 216, 0.75);font-size: 18px;}
+
+.news-content h3 {
+    color: #fff;
+    font-size: 24px;
+}
+/*...................................
+8. Form css
+................................... */
+
+.contact input {
+  width: 100%;
+  border: 1px solid #3E4451;
+  background: #0E1525;
+  padding: 13px 10px 13px 10px;
+  border-radius: 6px;
+  color: #ddd;
+}
+.form-group textarea{
+  width: 100%;
+  border: 1px solid #3E4451;
+  background: #0E1525;
+  padding: 13px 10px 13px 10px;
+  border-radius: 6px;
+  color: #ddd;
+  height: 120px;
+
+}
+.form .btn {
+  background: #fd4766;
+  color: #ddd !important;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  font-size: 18px;
+  border: 2px solid #fd4766;
+}
+.form .btn:hover {
+  background: #0E1525;
+  color: #fd4766;
+}
+.form {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.form img{
+  border-radius: 6px;
+}
+/*...................................
+9. Footer css
+................................... */
+footer{
+  background: #091020;
+}
+/* .footer-icon li {
+  color: #ddd;
+  width: 60px;
+  height: 60px;
+  background: #fd4766;
+  /* text-align: center; 
+  border-radius: 30px;
+}
+
+.footer-icon i {
+  text-align: center;
+} */
+.footer-icon i {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 16px 17px;
+  color: #979BAA;
+  border: 2px solid #979BAA;
+  transition: .4s;
+}
+.footer-icon i:hover{
+  background: #fd4766;
+  color: #ddd;
+}
+.footer-single {
+  text-align: center;
+  padding: 0 15px;
+}
+li.footer-single-icon {
+  padding: 20px 6px;
+  margin: 20px 0px;
+}
+ul.footer-icon {
+  text-align: center;
+}
+ul.footer-icon {
+  text-align: center;
+}
+footer p {
+  margin-top: 85px;
+}
+footer img {
+  /* height: 2px; */
+  width: 140px;
+  margin-top: 40px;
+}
