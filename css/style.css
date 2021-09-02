@@ -139,9 +139,12 @@
   background: #fd4766;
   color: #fff !important;
 }
+.header-right {
+    margin: 10px 0px 0px -15px;
+}
 .header-right .social-icon {
   display: inline-block;
-  padding: 35px;
+  padding: 20px;
 }
 .header-right i {
   font-size: 16px;
